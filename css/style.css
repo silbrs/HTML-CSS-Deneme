@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,700|Source+Sans+Pro:400,600");
+html, body {
+ 
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ul {
+    list-style-type: none;
+   
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    background-color: white;
+    color: black;
+}
+.menu a{
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+.menu{
+    margin-right: 150px;
+    
+}
+.li {
+    float: right;   
+}
+
+.li a {
+    display: block;
+
+    color: black;
+
+    text-align: center;
+
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+
+.logo{
+    width: 100px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 10px;
+    text-align: center;
+  
+}
+
+  
+  .img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+    }
+    .backgroundimage {
+        background-image: url("images/resim6.jpg");
+       background-size: 1500px;
+        height: 500px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+       
+      }
+    .foto{
+        background-color: black;
+        color: white;
+        opacity: 0.7;
+        margin: 300px 500px 100px 0;
+        padding: 20px 30px;
+        width: 500px;
+       
+        
+    }
+
+
+.section{
+    background-color:rgb(231, 225, 225); /*rgb(255, 249, 249)*/
+    color: black;
+    padding: 16px 20px;
+     border-radius: 5px;
+  border-collapse: collapse;
+  margin: 20px;
+  position: relative;
+  float: left;
+  
+}
+.table{
+    background-color:rgb(230, 222, 222);
+    color: darkslategray;
+    border-bottom: 5px;
+    border-color: black;
+    margin: 20px;
+}
+.aside{
+ float: left;
+ background-color: rgb(12, 214, 99);
+ color: seashell;
+ width: 250px;
+ height: 400px;
+ padding: 30px 30px;
+ font-family: Arial, Helvetica, sans-serif;
+ letter-spacing: 3px;
+ text-align: center;
+}
+.button{
+    background-color: #008CBA; /* blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 250px;
+    cursor: pointer;
+    width: 250px;
+}
+.personelimg{
+    width: 70px;
+    height: 70px;
+}
+
+.articleimg{
+    background-image: url("images/resim1.jpg");
+    height:200px;
+    width:1350px;
+    margin-top: 100px;
+    position:relative;
+    align-items: center;
+        justify-content: center;
+        filter: blur(2px);
+    
+        
+}
+
+.articleyazi{
+
+    z-index:100;
+    position:absolute;    
+    color: rgb(248, 245, 245);
+    font-size:24px;
+    font-weight:bold;
+    margin-left: 450px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  
+
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
